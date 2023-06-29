@@ -8,7 +8,5 @@ const ThemeProvider = ({children}) => {
     {children}
   </React.Fragment>
 }
-
 const context = generateClass(ThemeProvider, App, Definition, ProxyPayload)
-
 customElements.define('wp-calender-list', context.instance);
